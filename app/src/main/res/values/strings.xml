@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScottPilgrimMemory</string>
+    <string name="textview">TextView</string>
+
+    <string-array name="difficulty">
+        <item>Select Difficulty</item>
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+</resources>
