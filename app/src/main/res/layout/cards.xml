@@ -9,15 +9,80 @@
     android:orientation="vertical"
     tools:context=".Cards" >
 
-    <LinearLayout
+    <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:layout_marginTop="70dp">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        app:srcCompat="@drawable/carta" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="380dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="380dp"
+            app:srcCompat="@drawable/carta" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="110dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="380dp"
+            app:srcCompat="@drawable/carta" />
+
+    </TableRow>
 
 </LinearLayout>
