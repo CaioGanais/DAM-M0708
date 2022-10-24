@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">ScottPilgrimMemory</string>
     <string name="textview">TextView</string>
+    <string name="difficulty">\@string</string>
 
     <string-array name="difficulty">
         <item>Select Difficulty</item>

@@ -12,76 +12,188 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="70dp">
+        android:layout_weight="1.3" >
 
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="20dp"
-            app:srcCompat="@drawable/carta" />
+        <FrameLayout
+            android:layout_width="638dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="20dp"
-            app:srcCompat="@drawable/carta" />
+            <Chronometer
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
 
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="20dp"
-            app:srcCompat="@drawable/carta" />
+                android:layout_height="match_parent"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/gameplay"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
 
-        <ImageView
-            android:id="@+id/imageView23"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="-370dp"
-            android:layout_marginTop="190dp"
-            app:srcCompat="@drawable/carta" />
+        </FrameLayout>
 
-        <ImageView
-            android:id="@+id/imageView24"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="190dp"
-            app:srcCompat="@drawable/carta" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imageView25"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="190dp"
-            app:srcCompat="@drawable/carta" />
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@android:drawable/ic_media_pause" />
+        </FrameLayout>
+    </TableRow>
 
-        <ImageView
-            android:id="@+id/imageView26"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="-370dp"
-            android:layout_marginTop="380dp"
-            app:srcCompat="@drawable/carta" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
 
-        <ImageView
-            android:id="@+id/imageView27"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="380dp"
-            app:srcCompat="@drawable/carta" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imageView28"
-            android:layout_width="110dp"
-            android:layout_height="180dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="380dp"
-            app:srcCompat="@drawable/carta" />
+            <ImageView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
 
     </TableRow>
 

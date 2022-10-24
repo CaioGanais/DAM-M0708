@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondoinicio"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainLayout">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:layout_width="189dp"
             android:layout_height="91dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="170dp"
             android:fontFamily="@font/superfly"
             android:lineSpacingExtra="12sp"
             android:rotationX="28"
@@ -35,7 +35,7 @@
             android:layout_width="149dp"
             android:layout_height="61dp"
             android:layout_marginStart="-36dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="200dp"
             android:fontFamily="@font/superfly"
             android:lineSpacingExtra="12sp"
             android:rotationX="28"
