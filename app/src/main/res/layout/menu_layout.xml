@@ -10,8 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/memory_game"
@@ -19,6 +18,7 @@
             android:layout_height="91dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="180dp"
+            android:baselineAligned="false"
             android:fontFamily="@font/superfly"
             android:lineSpacingExtra="12sp"
             android:rotationX="28"

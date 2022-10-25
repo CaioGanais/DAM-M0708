@@ -29,4 +29,4 @@ class MenuLayout : AppCompatActivity() {
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, difficulty)
         spinner.adapter = adapter
     }
-}
+} 

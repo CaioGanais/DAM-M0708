@@ -59,8 +59,8 @@
 
             <ImageView
                 android:id="@+id/card1"
-                android:layout_width="136dp"
-                android:layout_height="192dp"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/carta" />
@@ -74,8 +74,23 @@
 
             <ImageView
                 android:id="@+id/card2"
-                android:layout_width="136dp"
-                android:layout_height="192dp"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card3"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/carta" />
@@ -96,11 +111,11 @@
 
             <ImageView
                 android:id="@+id/card4"
-                android:layout_width="136dp"
-                android:layout_height="192dp"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
                 android:layout_gravity="center"
-                android:layout_weight="1"
                 android:scaleType="centerCrop"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/carta" />
         </FrameLayout>
 
@@ -112,11 +127,27 @@
 
             <ImageView
                 android:id="@+id/card5"
-                android:layout_width="136dp"
-                android:layout_height="192dp"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
                 android:layout_gravity="center"
-                android:layout_weight="1"
                 android:scaleType="centerCrop"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card6"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/carta" />
         </FrameLayout>
 
@@ -135,8 +166,8 @@
 
             <ImageView
                 android:id="@+id/card7"
-                android:layout_width="136dp"
-                android:layout_height="192dp"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/carta" />
@@ -150,8 +181,23 @@
 
             <ImageView
                 android:id="@+id/card8"
-                android:layout_width="136dp"
-                android:layout_height="192dp"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/carta" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/card9"
+                android:layout_width="110dp"
+                android:layout_height="177dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/carta" />
