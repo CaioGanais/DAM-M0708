@@ -18,6 +18,8 @@ class Cards : AppCompatActivity() {
         binding.timer.start()
 
 
+
+
     }
 
 }
